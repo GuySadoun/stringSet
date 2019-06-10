@@ -2,11 +2,11 @@
 set of strings with 2 main function: void insert(string s) and anagrams(string s).
 
 2 implementations: 
-stringSet:
+stringSet: (hash table and uniqe primes key)
 anagrams func - O(stringLen(s)) avarage.
 insert func - O(stringLen(s)).
 
-stringSet2:
+stringSet2: (insert sorted string to trie [algorithm sort, not bucket/radix sort])
 anagrams func - O(|s|log(|s|)) avarage.
 insert func - O(|s|log(|s|)).
 
