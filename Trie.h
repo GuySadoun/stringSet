@@ -4,9 +4,6 @@
 
 #ifndef CONFIGURE_TRIE_H
 #define CONFIGURE_TRIE_H
-// C++ implementation of search and insert
-// operations on Trie
-//#include <bits/stdc++.h>
 #include <iostream>
 #include "linkedList.h"
 
