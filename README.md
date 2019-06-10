@@ -1,8 +1,15 @@
 # stringSet
 set of strings with 2 main function: void insert(string s) and anagrams(string s).
 
+2 implementations: 
+stringSet:
 anagrams func - O(stringLen(s)) avarage.
 insert func - O(stringLen(s)).
+
+stringSet2:
+anagrams func - O(|s|log(|s|)) avarage.
+insert func - O(|s|log(|s|)).
+
 
 using char to primes number hashing for each string.
 
