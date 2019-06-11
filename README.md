@@ -1,15 +1,12 @@
 # stringSet
-set of strings with 2 main function: void insert(string s) and anagrams(string s).
+set of strings with 2 main function: void insert(strinע) and anagrams(string).
 
-2 implementations: 
+2 different implementations: 
+
+FIRST IMPLEMENTATION:
 stringSet: (hash table and uniqe primes key)
-anagrams func - O(stringLen(s)) avarage.
-insert func - O(stringLen(s)).
-
-stringSet2: (insert sorted string to trie [algorithm sort, not bucket/radix sort])
-anagrams func - O(|s|log(|s|)) avarage.
-insert func - O(|s|log(|s|)).
-
+anagrams func - O(|s|) avarage.
+insert func - O(|s|).
 
 using char to primes number hashing for each string.
 
@@ -70,5 +67,8 @@ Not Found!
 head-> arbc -> abrc -> barc -> arcb -> NULL
 head-> andorap -> pandora -> NULL
 
-
+SECOND IMPLEMENTATION:
+stringSet2: (insert sorted string to trie [algorithm sort, not bucket/radix sort])
+anagrams func - O(|s|log(|s|)).
+insert func - O(|s|log(|s|)).
 
