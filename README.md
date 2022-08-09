@@ -1,5 +1,5 @@
 # stringSet
-set of strings with 2 main function: void insert(strinע) and anagrams(string).
+set of strings with 2 main function: void insert(string) and anagrams(string).
 
 2 different implementations: 
 
